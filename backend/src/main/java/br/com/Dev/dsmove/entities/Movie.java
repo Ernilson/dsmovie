@@ -15,19 +15,19 @@ public class Movie {
 	private Long id;
 	private String title;
 	private Double score;
-	private Integer couter;
+	private Integer count;
 	private String image;
 	
 	public Movie() {
 		
 	}
 
-	public Movie(Long id, String title, Double score, Integer couter, String image) {
+	public Movie(Long id, String title, Double score, Integer count, String image) {
 		super();
 		this.id = id;
 		this.title = title;
 		this.score = score;
-		this.couter = couter;
+		this.count = count;
 		this.image = image;
 	}
 
@@ -55,12 +55,12 @@ public class Movie {
 		this.score = score;
 	}
 
-	public Integer getCouter() {
-		return couter;
+	public Integer getCount() {
+		return count;
 	}
 
-	public void setCouter(Integer couter) {
-		this.couter = couter;
+	public void setCount(Integer count) {
+		this.count = count;
 	}
 
 	public String getImage() {
