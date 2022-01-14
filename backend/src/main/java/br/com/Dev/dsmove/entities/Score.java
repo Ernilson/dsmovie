@@ -14,7 +14,7 @@ public class Score {
 	private Double value;
 	
 	public Score() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	public void setMovie(Movie movie) {
